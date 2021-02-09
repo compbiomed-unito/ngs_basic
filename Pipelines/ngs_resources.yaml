@@ -1,0 +1,7 @@
+# This configuration file contains paths to various resources needed by the pipelines, organized by reference. 
+# Format: reference names as keys at the base level and the resource type at the second level.
+GRCh37:
+  sequences: /data/ensembl/Homo_sapiens.GRCh37.dna.primary_assembly.fa
+  dbsnp: /data/GRCh37/All_20180423.vcf.gz
+GRCh38:
+  sequences: /data/ensembl/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
